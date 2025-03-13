@@ -6,51 +6,32 @@ This is a comprehensive AI-powered Poker Game Room web application built with Re
 
 - **User Registration & Authentication**
 
-Players can register and authenticate using a secure password hashing mechanism.
+    - Players can register and authenticate using a secure password hashing mechanism.
 
 - **Room Management**
 
-- Create poker rooms specifying initial buy-in amounts and optional rebuy settings.
+    - Create poker rooms specifying initial buy-in amounts and optional rebuy settings.
 
-- Manage player participation and game state dynamically.
+    - Manage player participation and game state dynamically.
 
 - **Chip Management**
 
-- Track player chip counts, allowing dynamic updates throughout gameplay.
+    - Track player chip counts, allowing dynamic updates throughout gameplay.
 
-- Handle player rebuys seamlessly.
+    - Handle player rebuys seamlessly.
 
 - **Game Settlement**
 
-- Automatically calculates game outcomes, displaying profits, losses, and debts.
+    - Automatically calculates game outcomes, displaying profits, losses, and debts.
 
-- Provides a summary of the game with player balances, rebuys, and final chip counts.
+    - Provides a summary of the game with player balances, rebuys, and final chip counts.
 
 - **AI Command Processing**
 
-- Utilize Google's Gemini API to interpret and execute natural language commands for smoother gameplay management.
+    - Utilize Google's Gemini API to interpret and execute natural language commands for smoother gameplay management.
 
-- Supports both text and voice-based commands for enhanced user interaction.
+    - Supports both text and voice-based commands for enhanced user interaction.
 
-## Features
-
-- **User Authentication**
-
-Secure registration and login for players.
-
-- **Interactive UI**
-
-Intuitive and responsive React interface providing clear game information and interactive controls.
-
-- **AI Integration**
-
-Advanced command interpretation powered by Google Gemini API, simplifying game management through natural language commands.
-
-- **Analytics & Historical Data**
-
-Maintain historical records of player activities and buy-ins.
-
-Generate detailed summaries of each game session.
 
 ## Technology Stack
 
@@ -59,8 +40,6 @@ Generate detailed summaries of each game session.
 - **Backend**: FastAPI (Python)
 
 - **Database**: Firebase (Firestore)
-
-- **Real-Time Communication**: WebSockets
 
 - **AI Integration**: Google Gemini API
 
@@ -76,35 +55,52 @@ Generate detailed summaries of each game session.
 
 ## Installation
 
-Clone the repository.
+**Clone the repository:**
 
-Install dependencies:
+    ```bash
+        git clone <repository-url>
+    ```
+
+**Install dependencies:**
+
     ```bash
         npm install
         pip install -r requirements.txt
     ```
 
-Setup Firebase credentials in .env.
+**Setup Firebase credentials in .env:**
 
-Run backend:
+    ```bash
+        FIREBASE_KEY_JSON='<your-firebase-key-json>'
+        GEMINI_API_KEY='<your-gemini-api-key>'
+    ```
+
+**Run backend:**
+
     ```bash
         uvicorn main:app --reload
     ```
+**Install dependencies:**
 
-Start frontend server:
+    ```bash
+        npm install
+    ```
+
+**Start frontend server:**
+
     ```bash
         npm run dev
     ```
 
 ## Usage
     
-Register or login.
+- Register or login.
 
-Create and manage poker rooms.
+- Create and manage poker rooms.
 
-Add players and track their chip counts.
+- Add players and track their chip counts.
 
-Execute game commands either manually or through AI commands.
+- Execute game commands either manually or through AI commands.
 
 ## Contributing
 
