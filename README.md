@@ -2,6 +2,16 @@
 
 This is a comprehensive AI-powered Poker Game Room web application built with React for the frontend, FastAPI for the backend, and Firebase as the database. It incorporates real-time game management, player authentication, and advanced AI-driven command execution using Google Gemini.
 
+## How AI is Used in the Project
+One of the key innovations in this project is the integration of an AI agent powered by Google's Gemini API. This AI-enhanced functionality enables voice and text-based command execution, making game management effortless. Instead of manually updating chip counts or adding players, users can issue natural language commands, such as:
+
+- "Create room."
+- "Add John to the room with a buy-in of 100."
+- "Increase Akshay’s chips by 200."
+- "Settle the game and show the results."
+
+The AI agent interprets these commands, extracts key details, and executes the required API actions, making the game more intuitive and user-friendly. By leveraging natural language processing (NLP) and AI-powered decision-making, the system enhances accessibility and simplifies poker game administration.
+
 ## Features
 
 - **User Registration & Authentication**
