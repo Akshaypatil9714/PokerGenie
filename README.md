@@ -58,14 +58,14 @@ This is a comprehensive AI-powered Poker Game Room web application built with Re
 **Clone the repository:**
 
 ```bash
-git clone <repository-url>
+    git clone <repository-url>
 ```
 
 **Install dependencies:**
 
 ```bash
-npm install
-pip install -r requirements.txt
+    npm install
+    pip install -r requirements.txt
 ```
 
 **Setup Firebase credentials in .env:**
@@ -90,6 +90,8 @@ pip install -r requirements.txt
 ```
 
 ## Usage
+
+- Open your browser and navigate to http://localhost:3000.
     
 - Register or login.
 
