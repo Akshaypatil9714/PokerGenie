@@ -57,40 +57,37 @@ This is a comprehensive AI-powered Poker Game Room web application built with Re
 
 **Clone the repository:**
 
-    ```bash
-        git clone <repository-url>
-    ```
+```bash
+git clone <repository-url>
+```
 
 **Install dependencies:**
 
-    ```bash
-        npm install
-        pip install -r requirements.txt
-    ```
+```bash
+npm install
+pip install -r requirements.txt
+```
 
 **Setup Firebase credentials in .env:**
-
-    ```bash
-        FIREBASE_KEY_JSON='<your-firebase-key-json>'
-        GEMINI_API_KEY='<your-gemini-api-key>'
-    ```
+```bash
+    FIREBASE_KEY_JSON='<your-firebase-key-json>'
+    GEMINI_API_KEY='<your-gemini-api-key>'
+```
 
 **Run backend:**
+```bash
+    uvicorn main:app --reload
+```
 
-    ```bash
-        uvicorn main:app --reload
-    ```
 **Install dependencies:**
-
-    ```bash
-        npm install
-    ```
+```bash
+    npm install
+```
 
 **Start frontend server:**
-
-    ```bash
-        npm run dev
-    ```
+```bash
+    npm run dev
+```
 
 ## Usage
     
